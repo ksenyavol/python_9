@@ -18,6 +18,7 @@ class Worker:
     def full_name(self):
         return self.name + self.surname
 
+    
 OBJ = Worker('Игорь', 'Петров', 'Оператор', 30000)
 print(OBJ.full_name())
 
